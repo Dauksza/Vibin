@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forge-agent"
+version = "0.1.0"
+description = "Verification-first agentic control plane: deterministic state machine, contract stack, parallel worktrees, git snapshots, model routing."
+authors = [{name = "Forge Contributors"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+forge = "forge.cli:main"

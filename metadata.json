@@ -1,0 +1,6 @@
+{
+  "name": "Forge - Autonomous Engineering Control Plane",
+  "description": "Deterministic autonomous software engineering control plane with parallel worktrees, 6-layer contract stack, git realms time-travel, and model routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
